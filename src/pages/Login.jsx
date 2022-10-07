@@ -14,7 +14,7 @@ const Login = () => {
       .then(res => {
         localStorage.setItem("token", res.data.data.token);
 
-        alert("todo ok");
+        
         navigate("/");
       })
       .catch(error => {
