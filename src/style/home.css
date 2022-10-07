@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-home {
+  height: 350px;
+  object-fit: contain;
+  padding: 15px;
+}
+
+.btn-search {
+  background: rgb(255, 69, 0) !important;
+}
+
+.btn-search:hover {
+  background: rgba(255, 69, 0, 0.8) !important;
+  
+}
